@@ -1,0 +1,91 @@
+#profile{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background: #111;
+    color: white;
+    padding: 0 20px;
+    .profile_h{
+        height: 50px;
+        line-height: 50px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .profile_c{
+        width: 90vw;
+        margin: 0 auto;
+        h2{
+            font-size: 50px;
+            text-align: center;
+            font-family: Anton, sans-serif;
+            margin-bottom: 100px;
+            span{
+                border-bottom: 3px double #ddd;
+                padding: 0 30px;
+                text-shadow: 0 2px 4px rgba(255,255,255,.25);
+            }
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            .flex{
+                margin-right: 30px;
+                .pic{
+                    img{
+                        width: 500px;
+                        height: auto;
+                        // object-fit: contain;
+                        display: block;
+                    }
+                }
+            }
+            .information{
+                .text{
+                    padding:0 20px 0 0;
+                    p{
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        margin-bottom: 40px;
+                        &.intro{
+
+                        }
+                    }
+                }
+                .skills{
+                    margin-top: 50px;
+                    h3{
+                        font-size: 24px;
+                        border-bottom: 3px double #fff;
+                        padding-bottom: 8px;
+                    }
+                    .skill{
+                        display: flex;
+                        padding: 16px;
+                        justify-content: space-between;
+                        span{
+                            text-transform: uppercase;
+                            font-size: 16px;
+                            width: 100px;
+                            height: 100px;
+                            background: #fff;
+                            color: #222;
+                            display: block;
+                            text-align: center;
+                            border-radius: 50%;
+                            line-height: 100px;
+                            &:nth-child(1){border: 2px solid #f17373;}
+                            &:nth-child(2){border: 2px solid #f0871e;}
+                            &:nth-child(3){border: 2px solid #e6f173;}
+                            &:nth-child(4){border: 2px solid #79f173;}
+                            &:nth-child(5){border: 2px solid #73f1eb;}
+                            &:nth-child(6){border: 2px solid #7386f1;}
+                            &:nth-child(7){border: 2px solid #e673f1;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

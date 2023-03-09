@@ -1,0 +1,97 @@
+#profile {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background: #111;
+  color: white;
+  padding: 0 20px;
+}
+#profile .profile_h {
+  height: 50px;
+  line-height: 50px;
+}
+#profile .profile_h img {
+  width: 50px;
+  height: 50px;
+}
+#profile .profile_c {
+  width: 90vw;
+  margin: 0 auto;
+}
+#profile .profile_c h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Anton, sans-serif;
+  margin-bottom: 100px;
+}
+#profile .profile_c h2 span {
+  border-bottom: 3px double #ddd;
+  padding: 0 30px;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.25);
+}
+#profile .profile_c .flex {
+  display: flex;
+  justify-content: center;
+}
+#profile .profile_c .flex .flex {
+  margin-right: 30px;
+}
+#profile .profile_c .flex .flex .pic img {
+  width: 500px;
+  height: auto;
+  display: block;
+}
+#profile .profile_c .flex .information .text {
+  padding: 0 20px 0 0;
+}
+#profile .profile_c .flex .information .text p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#profile .profile_c .flex .information .skills {
+  margin-top: 50px;
+}
+#profile .profile_c .flex .information .skills h3 {
+  font-size: 24px;
+  border-bottom: 3px double #fff;
+  padding-bottom: 8px;
+}
+#profile .profile_c .flex .information .skills .skill {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+#profile .profile_c .flex .information .skills .skill span {
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color: #222;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 100px;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(1) {
+  border: 2px solid #f17373;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(2) {
+  border: 2px solid #f0871e;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(3) {
+  border: 2px solid #e6f173;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(4) {
+  border: 2px solid #79f173;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(5) {
+  border: 2px solid #73f1eb;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(6) {
+  border: 2px solid #7386f1;
+}
+#profile .profile_c .flex .information .skills .skill span:nth-child(7) {
+  border: 2px solid #e673f1;
+}/*# sourceMappingURL=Profile.css.map */
