@@ -3,9 +3,7 @@ import './style/Profile.scss'
 const Profile = () => {
     return (
         <div id='profile'>
-            <heaer className="profile_h">
-                <h1><img src="./images/logo.svg" alt="logo" /></h1>
-            </heaer>
+            
             <section className="profile_c">
                 <h2><span>ABOUT ME</span></h2>
                 <div className="flex">
